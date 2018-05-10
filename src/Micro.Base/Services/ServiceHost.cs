@@ -86,7 +86,7 @@ namespace Micro.Base.Services
 
             public override ServiceHost Build()
             {
-                throw new NotImplementedException();
+                return new ServiceHost(_webHost);
             }
         }
     }

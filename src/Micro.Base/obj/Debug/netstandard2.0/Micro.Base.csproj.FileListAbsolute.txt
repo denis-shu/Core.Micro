@@ -6,3 +6,4 @@ C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.AssemblyIn
 C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.AssemblyInfo.cs
 C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.dll
 C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.pdb
+C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.csprojResolveAssemblyReference.cache

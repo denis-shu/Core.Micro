@@ -17,14 +17,13 @@ namespace Micro.Base.Events
         {
 
         }
-        public ActivityCreated(Guid userId, Guid id, string category, string name, string description, DateTime createdAt)
+        public ActivityCreated(Guid userId, Guid id, string category, string name)
         {
             this.UserId = userId;
             this.Id = id;
             this.Category = category;
             this.Name = name;
-            this.Description = description;
-            this.CreatedAt = createdAt;
+           
 
         }
 
