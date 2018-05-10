@@ -1,0 +1,12 @@
+C:\Users\asus\core\src\Micro.API\bin\Debug\netcoreapp2.0\Micro.API.deps.json
+C:\Users\asus\core\src\Micro.API\bin\Debug\netcoreapp2.0\Micro.API.runtimeconfig.json
+C:\Users\asus\core\src\Micro.API\bin\Debug\netcoreapp2.0\Micro.API.runtimeconfig.dev.json
+C:\Users\asus\core\src\Micro.API\bin\Debug\netcoreapp2.0\Micro.API.dll
+C:\Users\asus\core\src\Micro.API\bin\Debug\netcoreapp2.0\Micro.API.pdb
+C:\Users\asus\core\src\Micro.API\bin\Debug\netcoreapp2.0\Micro.Base.dll
+C:\Users\asus\core\src\Micro.API\bin\Debug\netcoreapp2.0\Micro.Base.pdb
+C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.csproj.CoreCompileInputs.cache
+C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.AssemblyInfoInputs.cache
+C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.AssemblyInfo.cs
+C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.dll
+C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.pdb

@@ -1,0 +1,12 @@
+C:\Users\asus\core\src\Micro.Services.Identity\bin\Debug\netcoreapp2.0\Micro.Services.Identity.deps.json
+C:\Users\asus\core\src\Micro.Services.Identity\bin\Debug\netcoreapp2.0\Micro.Services.Identity.runtimeconfig.json
+C:\Users\asus\core\src\Micro.Services.Identity\bin\Debug\netcoreapp2.0\Micro.Services.Identity.runtimeconfig.dev.json
+C:\Users\asus\core\src\Micro.Services.Identity\bin\Debug\netcoreapp2.0\Micro.Services.Identity.dll
+C:\Users\asus\core\src\Micro.Services.Identity\bin\Debug\netcoreapp2.0\Micro.Services.Identity.pdb
+C:\Users\asus\core\src\Micro.Services.Identity\bin\Debug\netcoreapp2.0\Micro.Base.dll
+C:\Users\asus\core\src\Micro.Services.Identity\bin\Debug\netcoreapp2.0\Micro.Base.pdb
+C:\Users\asus\core\src\Micro.Services.Identity\obj\Debug\netcoreapp2.0\Micro.Services.Identity.csproj.CoreCompileInputs.cache
+C:\Users\asus\core\src\Micro.Services.Identity\obj\Debug\netcoreapp2.0\Micro.Services.Identity.AssemblyInfoInputs.cache
+C:\Users\asus\core\src\Micro.Services.Identity\obj\Debug\netcoreapp2.0\Micro.Services.Identity.AssemblyInfo.cs
+C:\Users\asus\core\src\Micro.Services.Identity\obj\Debug\netcoreapp2.0\Micro.Services.Identity.dll
+C:\Users\asus\core\src\Micro.Services.Identity\obj\Debug\netcoreapp2.0\Micro.Services.Identity.pdb

@@ -1,0 +1,8 @@
+C:\Users\asus\core\src\Micro.Base\bin\Debug\netstandard2.0\Micro.Base.deps.json
+C:\Users\asus\core\src\Micro.Base\bin\Debug\netstandard2.0\Micro.Base.dll
+C:\Users\asus\core\src\Micro.Base\bin\Debug\netstandard2.0\Micro.Base.pdb
+C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.csproj.CoreCompileInputs.cache
+C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.AssemblyInfoInputs.cache
+C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.AssemblyInfo.cs
+C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.dll
+C:\Users\asus\core\src\Micro.Base\obj\Debug\netstandard2.0\Micro.Base.pdb
