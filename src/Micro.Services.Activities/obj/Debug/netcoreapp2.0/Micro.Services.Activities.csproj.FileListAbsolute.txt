@@ -1,0 +1,12 @@
+C:\Users\asus\core\src\Micro.Services.Activities\bin\Debug\netcoreapp2.0\Micro.Services.Activities.deps.json
+C:\Users\asus\core\src\Micro.Services.Activities\bin\Debug\netcoreapp2.0\Micro.Services.Activities.runtimeconfig.json
+C:\Users\asus\core\src\Micro.Services.Activities\bin\Debug\netcoreapp2.0\Micro.Services.Activities.runtimeconfig.dev.json
+C:\Users\asus\core\src\Micro.Services.Activities\bin\Debug\netcoreapp2.0\Micro.Services.Activities.dll
+C:\Users\asus\core\src\Micro.Services.Activities\bin\Debug\netcoreapp2.0\Micro.Services.Activities.pdb
+C:\Users\asus\core\src\Micro.Services.Activities\bin\Debug\netcoreapp2.0\Micro.Base.dll
+C:\Users\asus\core\src\Micro.Services.Activities\bin\Debug\netcoreapp2.0\Micro.Base.pdb
+C:\Users\asus\core\src\Micro.Services.Activities\obj\Debug\netcoreapp2.0\Micro.Services.Activities.csproj.CoreCompileInputs.cache
+C:\Users\asus\core\src\Micro.Services.Activities\obj\Debug\netcoreapp2.0\Micro.Services.Activities.AssemblyInfoInputs.cache
+C:\Users\asus\core\src\Micro.Services.Activities\obj\Debug\netcoreapp2.0\Micro.Services.Activities.AssemblyInfo.cs
+C:\Users\asus\core\src\Micro.Services.Activities\obj\Debug\netcoreapp2.0\Micro.Services.Activities.dll
+C:\Users\asus\core\src\Micro.Services.Activities\obj\Debug\netcoreapp2.0\Micro.Services.Activities.pdb

@@ -20,6 +20,7 @@ namespace Micro.API.Controllers
         [HttpPost("")]
         public async Task<IActionResult> Post([FromBody]CreateActivity command)
         {
+            //Console.Write("start");
             command.Id = Guid.NewGuid();
             command.CreatedAt=DateTime.UtcNow;
             await _busClient.PublishAsync(command);

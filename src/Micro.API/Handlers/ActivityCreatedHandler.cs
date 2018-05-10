@@ -6,6 +6,10 @@ namespace Micro.API.Handlers
 {
     public class ActivityCreatedHandler : IEventHanler<ActivityCreated>
     {
+        public ActivityCreatedHandler()
+        {
+        }
+
         public  async Task HandleAsync(ActivityCreated @event)
         {
             await Task.CompletedTask;

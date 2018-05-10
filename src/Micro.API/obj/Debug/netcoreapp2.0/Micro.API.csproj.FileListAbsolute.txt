@@ -10,3 +10,4 @@ C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.AssemblyInfoI
 C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.AssemblyInfo.cs
 C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.dll
 C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.pdb
+C:\Users\asus\core\src\Micro.API\obj\Debug\netcoreapp2.0\Micro.API.csprojResolveAssemblyReference.cache
