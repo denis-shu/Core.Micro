@@ -12,9 +12,11 @@ namespace Micro.Base.Mongo
         private bool _initializer;
         private readonly bool _seed;
         private readonly IMongoDatabase _db;
+        private readonly IDBSeed _seeder;
 
-        public DBInit(IMongoDatabase db, IOptions<MongoOpt> options)
+        public DBInit(IMongoDatabase db, IOptions<MongoOpt> options, IDBSeed seed, IDBSeed seeder)
         {
+             seeder=_seeder;
             _db = db;
             _seed = options.Value.Seed;
 
@@ -27,8 +29,13 @@ namespace Micro.Base.Mongo
             RegisterConventions();
             _initializer = true;
             if (!_seed)
+            {
                 return;
+            }
+            await _seeder.SeedAsync();
         }
+
+
 
         private void RegisterConventions()
         {

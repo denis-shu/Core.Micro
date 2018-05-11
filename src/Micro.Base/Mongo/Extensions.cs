@@ -19,7 +19,7 @@ namespace Micro.Base.Mongo
                 return new MongoClient(options.Value.ConnectionString);
             });
 
-             services.AddScoped<IMongoDatabase>(c =>
+             services.AddSingleton<IMongoDatabase>(c =>
              {
                 var options = c.GetService<IOptions<MongoOpt>>();
                 var client = c.GetService<MongoClient>();
@@ -27,7 +27,8 @@ namespace Micro.Base.Mongo
                 return client.GetDatabase(options.Value.Database);
             });
 
-            services.AddScoped<IDBInit, DBInit>();
+            services.AddSingleton<IDBInit, DBInit>();
+            services.AddSingleton<IDBSeed, DbSeed>();
 
 
           

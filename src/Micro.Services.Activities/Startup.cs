@@ -8,6 +8,7 @@ using Micro.Base.RabbitMQ;
 using Micro.Services.Activities.Domain.Repos;
 using Micro.Services.Activities.Handler;
 using Micro.Services.Activities.Repository;
+using Micro.Services.Activities.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -36,6 +37,7 @@ namespace Micro.Services.Activities
             services.AddSingleton<ICommandHandler<CreateActivity>, CreateActivityHandler>();
             services.AddSingleton<IActivityRepo, ActivityRepo>();
             services.AddSingleton<ICategoryRepo, CategoryRepo>();
+            services.AddSingleton<IDBSeed, CustomDBSeeder>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +47,7 @@ namespace Micro.Services.Activities
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.ApplicationServices.GetService<IDBInit>().InitAsync();
             app.UseMvc();
         }
     }

@@ -27,7 +27,7 @@ namespace Micro.Base.Mongo
 
         protected virtual async Task CustomSeedAsync()
         {
-                await Task.CompletedTask();
+                await Task.CompletedTask;
         }
     }
 }
