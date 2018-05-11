@@ -6,7 +6,7 @@ namespace Micro.Base.Mongo
 {
     public class DbSeed : IDBSeed
     {
-        private readonly IMongoDatabase _db;
+        protected readonly IMongoDatabase _db;
 
         public DbSeed(IMongoDatabase db)
         {
@@ -18,10 +18,16 @@ namespace Micro.Base.Mongo
         {
             var collctn = await _db.ListCollectionsAsync();
             var list = await collctn.ToListAsync();
+
             if (list.Any())
                 return;
 
             await CustomSeedAsync();
+        }
+
+        protected virtual async Task CustomSeedAsync()
+        {
+                await Task.CompletedTask();
         }
     }
 }
