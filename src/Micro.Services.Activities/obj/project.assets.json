@@ -5077,10 +5077,7 @@
         "dependencies": {
           "Microsoft.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore.Hosting": "2.0.0",
-<<<<<<< HEAD
           "MongoDB.Driver": "2.6.0",
-=======
->>>>>>> 583262ba37be145408c1be0ed97246faa8efac78
           "RawRabbit": "2.0.0-beta8",
           "RawRabbit.DependencyInjection.ServiceCollection": "2.0.0-beta8",
           "RawRabbit.Operations.Publish": "2.0.0-beta8",
@@ -13294,5 +13291,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\asus\\core\\src\\Micro.Services.Activities\\obj\\Micro.Services.Activities.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
