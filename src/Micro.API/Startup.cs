@@ -28,7 +28,11 @@ namespace Micro.API
         {
             services.AddMvc();
             services.AddRabbitMQ(Configuration);
+<<<<<<< HEAD
             services.AddSingleton<IEventHanler<ActivityCreated>, ActivityCreatedHandler>();
+=======
+            services.AddScoped<IEventHanler<ActivityCreated>, ActivityCreatedHandler>();
+>>>>>>> 583262ba37be145408c1be0ed97246faa8efac78
          }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

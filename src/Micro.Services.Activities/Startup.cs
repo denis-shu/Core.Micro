@@ -28,10 +28,15 @@ namespace Micro.Services.Activities
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+<<<<<<< HEAD
             services.AddLogging();
             services.AddMongoDB(Configuration);
             services.AddRabbitMQ(Configuration);
             services.AddSingleton<ICommandHandler<CreateActivity>, CreateActivityHandler>();
+=======
+            services.AddRabbitMQ(Configuration);
+            services.AddScoped<ICommandHandler<CreateActivity>, CreateActivityHandler>();
+>>>>>>> 583262ba37be145408c1be0ed97246faa8efac78
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
