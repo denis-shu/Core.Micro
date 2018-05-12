@@ -1,4 +1,5 @@
 using System;
+using Micro.Base.Exceptions;
 
 namespace Micro.Services.Activities.Domain.Models
 {
@@ -20,6 +21,20 @@ namespace Micro.Services.Activities.Domain.Models
         {
             Id = id;
             Category = category.NAme;
+            NAme = name;
+            UserId = userId;
+            Desciptions = description;
+            CreatedAt = created;
+        }
+
+         public Activity(Guid id, Guid userId, string category, string name,
+        string description, DateTime created)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                throw new MicroException("activity_empty", $"Name cant be ampty or wss");
+
+            Id = id;
+            Category = category;
             NAme = name;
             UserId = userId;
             Desciptions = description;

@@ -23,7 +23,15 @@ namespace Micro.Base.Events
             this.Id = id;
             this.Category = category;
             this.Name = name;
-           
+        }
+        public ActivityCreated(Guid userId, Guid id, string category, string name, string desc, DateTime createdAt)
+        {
+            this.UserId = userId;
+            this.Id = id;
+            this.Category = category;
+            this.Name = name;
+            Description = desc;
+            CreatedAt = createdAt;
 
         }
 

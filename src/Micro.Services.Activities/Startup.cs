@@ -38,6 +38,7 @@ namespace Micro.Services.Activities
             services.AddSingleton<IActivityRepo, ActivityRepo>();
             services.AddSingleton<ICategoryRepo, CategoryRepo>();
             services.AddSingleton<IDBSeed, CustomDBSeeder>();
+            services.AddSingleton<IActivityService, ActivityService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

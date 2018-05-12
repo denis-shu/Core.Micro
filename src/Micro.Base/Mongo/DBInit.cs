@@ -14,9 +14,9 @@ namespace Micro.Base.Mongo
         private readonly IMongoDatabase _db;
         private readonly IDBSeed _seeder;
 
-        public DBInit(IMongoDatabase db, IOptions<MongoOpt> options, IDBSeed seed, IDBSeed seeder)
+        public DBInit(IMongoDatabase db, IOptions<MongoOpt> options, IDBSeed seeder)
         {
-             seeder=_seeder;
+             _seeder = seeder;
             _db = db;
             _seed = options.Value.Seed;
 
