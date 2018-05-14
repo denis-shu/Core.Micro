@@ -18,12 +18,10 @@ namespace Micro.API.Controllers
 
         [HttpPost("register")]
         public async Task<IActionResult> Post([FromBody]CreateUser command)
-        {
-            command.Email = "test@email.test";
-            command.Name= "command_username";
+        {            
             await _busClient.PublishAsync(command);
 
-            return Accepted($"user/{command.Name}");
+            return Accepted();
         }
     }
 }

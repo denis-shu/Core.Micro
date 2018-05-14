@@ -9,7 +9,7 @@ namespace Micro.API.Controllers
         [HttpGet("")]
         public IActionResult Get()
         {
-            return Content("Hello from MIcro.API");
+            return Content("xs");
         }
     }
 }
