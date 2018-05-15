@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Micro.Base.Auth;
 using Micro.Base.Commands;
 using Micro.Base.Mongo;
 using Micro.Base.RabbitMQ;
@@ -32,6 +33,7 @@ namespace Micro.Services.Identity
         {
             services.AddMvc();
             services.AddLogging();
+            services.AddJwt(Configuration);
             services.AddMongoDB(Configuration);
             services.AddRabbitMQ(Configuration);
             services.AddSingleton<ICommandHandler<CreateUser>, CreateUserHandler>();

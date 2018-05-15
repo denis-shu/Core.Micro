@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Micro.API.Handlers;
+using Micro.API.Repos;
+using Micro.Base.Auth;
 using Micro.Base.Events;
 using Micro.Base.RabbitMQ;
 using Microsoft.AspNetCore.Builder;
@@ -27,9 +29,13 @@ namespace Micro.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddJwt(Configuration);
+
             services.AddRabbitMQ(Configuration);
             services.AddSingleton<IEventHanler<ActivityCreated>, ActivityCreatedHandler>();
-         }
+            services.AddSingleton<IEventHanler<UserCreated>,UserCreatedHandler>();
+            services.AddSingleton<IActivityRepo, ActivityRepo>();
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

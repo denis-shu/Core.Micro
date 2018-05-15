@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using Micro.Base.Auth;
 using Micro.Base.Exceptions;
 using Micro.Services.Identity.Domain.Models;
 using Micro.Services.Identity.Domain.Repos;
@@ -9,13 +10,15 @@ namespace Micro.Services.Identity.Service
     {
         private readonly IUserRepo _userRepo;
         private readonly IPswrdEncr _encr;
+        private readonly IJwtHandler jwtHandler;
 
-        public UserService(IUserRepo userRepo, IPswrdEncr encr)
+        public UserService(IUserRepo userRepo, IPswrdEncr encr, IJwtHandler jwtHandler)
         {
             _userRepo = userRepo;
             _encr = encr;
+            this.jwtHandler = jwtHandler;
         }
-        public async Task LogAsync(string email, string pswrd)
+        public async Task<JsonWebToken> LogAsync(string email, string pswrd)
         {
             var user = await _userRepo.GetASync(email);
             if (user == null)
@@ -24,6 +27,8 @@ namespace Micro.Services.Identity.Service
             if (!user.IsPswrdCorrect(pswrd, _encr))
                 throw new MicroException("something is wrong with the password", 
                 $"something is wrong with the password");
+
+                return jwtHandler.Create(user.Id);
 
         }
 
